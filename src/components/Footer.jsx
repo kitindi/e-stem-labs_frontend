@@ -91,9 +91,15 @@ const Footer = () => {
           </div>
           <div className="py-8 px-20 text-slate-500">
             <ul className="flex flex-col gap-2">
-              <Link to="">Privacy</Link>
-              <Link to="">Terms of use</Link>
-              <Link to="">FAQ</Link>
+              <Link to="/privacy" className="hover:text-blue-500">
+                Privacy
+              </Link>
+              <Link to="/privacy" className="hover:text-blue-500">
+                Terms of use
+              </Link>
+              <Link to="/faqs" className="hover:text-blue-500">
+                FAQ
+              </Link>
             </ul>
           </div>
           <div className="py-8">
@@ -101,7 +107,7 @@ const Footer = () => {
             <div className="mb-3">
               <button className="bg-slate-900 py-2 px-4 flex gap-4 rounded-md">
                 <div>
-                  <FaApple color="white" fontSize="2.5em" />
+                  <FaApple color="white" fontSize="2.25em" />
                 </div>
                 <div>
                   <p className="text-white text-sm font-semibold">
@@ -114,7 +120,7 @@ const Footer = () => {
             <div>
               <button className="bg-slate-900 py-2 px-4 flex gap-4 rounded-md">
                 <div>
-                  <FaGooglePlay color="white" fontSize="2.5em" />
+                  <FaGooglePlay color="white" fontSize="2.25em" />
                 </div>
                 <div>
                   <p className="text-white text-sm font-semibold">

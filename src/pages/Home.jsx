@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "../components/Signup";
 import Login from "../components/Login";
 import Welcome from "./Welcome";
+import Privacy from "./Privacy";
+import Faqs from "./Faqs";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
           <Route path="/" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/welcome" element={<Welcome />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/faqs" element={<Faqs />} />
         </Routes>
       </BrowserRouter>
     </div>
