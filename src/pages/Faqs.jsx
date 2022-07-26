@@ -71,6 +71,12 @@ const Faqs = () => {
               challenge or a set of challenges. There will be free and premium
               Hackathons.
             </li>
+            <li className="mb-2">
+              <span className="font-semibold">Mobile app:</span> To make
+              learning more fun and engaging, we are working on a mobile app of
+              the platform for android and apple devices. More information will
+              be shered
+            </li>
           </ul>
           <h3 className="text-xl text-slate-900 font-semibold mb-3">
             Can I contribute?
