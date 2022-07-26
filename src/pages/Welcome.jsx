@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import ict from "../img/ict.svg";
@@ -8,14 +9,14 @@ import Footer from "../components/Footer";
 
 const Welcome = () => {
   return (
-    <div className="w-full bg-blue-100">
+    <div className="w-full bg-blue-100 relative">
       <Navbar />
       <Hero />
       <div className="w-full py-8 ">
         <div className="w-full max-w-[1100px] mx-auto">
           <p className="text-2xl font-semibold mb-10"> Learning Paths</p>
           <div className="w-full grid grid-cols-3 gap-6 ">
-            <div className="bg-white">
+            <Link to="" className="bg-white">
               <div className="p-6">
                 <img src={ict} alt="" />
               </div>
@@ -28,8 +29,8 @@ const Welcome = () => {
                 </p>
                 <p className="text-slate-100 font-bold mt-8">COURSE</p>
               </div>
-            </div>
-            <div className="bg-white">
+            </Link>
+            <Link to="" className="bg-white">
               <div className="p-6">
                 <img src={computer} alt="" />
               </div>
@@ -42,8 +43,8 @@ const Welcome = () => {
                 </p>
                 <p className="text-slate-100 font-bold mt-8">COURSE</p>
               </div>
-            </div>
-            <div className="bg-white">
+            </Link>
+            <Link to="" className="bg-white">
               <div className="p-6">
                 <img src={programming} alt="" />
               </div>
@@ -54,7 +55,7 @@ const Welcome = () => {
                 </p>
                 <p className="text-slate-100 font-bold mt-8">COURSE</p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

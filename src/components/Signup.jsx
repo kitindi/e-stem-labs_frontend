@@ -6,7 +6,7 @@ const Signup = () => {
       <div className=" h-screen py-12 pl-28 pr-10 w-1/2 bg-slate-800 flex flex-col justify-between">
         <div className="">
           <h1 className="text-white text-3xl font-bold">
-            <span className="text-blue-600">e-STEM </span>lab
+            <span className="text-blue-600">e-STEM </span>LAB
           </h1>
           <div className="mt-28">
             <h2 className="text-white text-3xl font-light">
