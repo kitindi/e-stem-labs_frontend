@@ -49,9 +49,9 @@ const Login = () => {
               <button className="bg-blue-600 text-white w-full py-3 mb-4 cursor-pointer">
                 LOG IN
               </button>
-              <p className="text-slate-500 underline underline-offset-3 cursor-pointer">
+              <p className="text-slate-500  cursor-pointer mt-3">
                 Don't have account yet?
-                <span className="font-bold py-4">Register</span>
+                <span className="font-bold ml-2">Register</span>
               </p>
             </div>
           </form>

@@ -25,16 +25,27 @@ const Signup = () => {
       </div>
 
       <div className=" h-screen flex items-center pl-16 w-1/2">
-        <div className="w-[450px]">
+        <div className="w-[470px]">
           <form action="" className="w-full">
-            <div className="w-full flex flex-col mb-3">
-              <label htmlFor="username" className="text-gray-400 text-sm">
-                USERNAME
-              </label>
-              <input
-                type="text"
-                className=" border-b-2 border-slate-400 outline-none p-2"
-              />
+            <div className="w-full flex gap-3 mb-3">
+              <div className="w-1/2 flex flex-col">
+                <label htmlFor="username" className="text-gray-400 text-sm">
+                  FIRST RNAME
+                </label>
+                <input
+                  type="text"
+                  className=" border-b-2 border-slate-400 outline-none p-2"
+                />
+              </div>
+              <div className="w-1/2 flex flex-col">
+                <label htmlFor="username" className="text-gray-400 text-sm">
+                  LAST NAME
+                </label>
+                <input
+                  type="text"
+                  className=" border-b-2 border-slate-400 outline-none p-2"
+                />
+              </div>
             </div>
             <div className="w-full flex flex-col mb-3">
               <label htmlFor="username" className="text-gray-400 text-sm">
