@@ -9,7 +9,7 @@ const Faqs = () => {
   return (
     <div className="w-full bg-blue-100 relative">
       <Navbar />
-      <div className="w-full max-w-[1100px] mx-auto mt-16 py-8 grid grid-cols-12 gap-6">
+      <div className="w-full max-w-[1100px] mx-auto mt-10 py-8 grid grid-cols-12 gap-6">
         <div className="col-span-3 ">
           <div className="bg-white p-3 flex flex-col  justify-center gap-5">
             <div className="flex justify-center items-center">

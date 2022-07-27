@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="w-full mx-auto  border-b-2 border-slate-300 bg-white sticky absolute top-0 left-0">
       <div className="w-full flex justify-between items-center px-16 py-3">
         <div>
-          <h1 className="text-blue-600 text-3xl font-bold">
-            <span className="">e-STEM </span>LAB
-          </h1>
+          <Link to="/welcome">
+            <h1 className="text-blue-600 text-3xl font-bold">
+              <span className="">e-STEM </span>LAB
+            </h1>
+          </Link>
         </div>
         <div className="flex items-center gap-4">
           <span className="p-3 border-r-2 pr-4">

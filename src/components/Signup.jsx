@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -75,12 +76,16 @@ const Signup = () => {
               />
             </div>
             <div className="w-full mt-10 flex gap-6 items-center">
-              <button className="bg-blue-600 text-white py-3 px-10 cursor-pointer">
-                SIGN UP NOW
-              </button>
-              <p className="text-slate-500 underline underline-offset-2 cursor-pointer">
-                I am already a member
-              </p>
+              <Link to="/login">
+                <button className="bg-blue-600 text-white py-3 px-10 cursor-pointer">
+                  SIGN UP NOW
+                </button>
+              </Link>
+              <Link to="/login">
+                <p className="text-slate-500 underline underline-offset-2 cursor-pointer">
+                  I am already a member
+                </p>
+              </Link>
             </div>
           </form>
         </div>

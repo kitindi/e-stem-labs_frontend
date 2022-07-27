@@ -16,7 +16,7 @@ const Welcome = () => {
         <div className="w-full max-w-[1100px] mx-auto">
           <p className="text-2xl font-semibold mb-10"> Learning Paths</p>
           <div className="w-full grid grid-cols-3 gap-6 ">
-            <Link to="" className="bg-white">
+            <Link to="/ict" className="bg-white">
               <div className="p-6">
                 <img src={ict} alt="" />
               </div>
