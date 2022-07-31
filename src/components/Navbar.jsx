@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const user = JSON.parse(localStorage.getItem("username"));
+
   return (
     <nav className="w-full mx-auto  border-b-2 border-slate-300 bg-white sticky absolute top-0 left-0">
       <div className="w-full flex justify-between items-center px-16 py-3">
@@ -45,7 +47,7 @@ const Navbar = () => {
               />
             </svg>
           </span>
-          <span className="text-gray-600 mr-2"> Firstname</span>
+          <span className="text-gray-600 mr-2"> {user.firstname}</span>
           <span className="cursor-pointer">
             {" "}
             <svg
