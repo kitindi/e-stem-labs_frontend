@@ -1,12 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useAuthContext } from "../hooks/useAuthContext";
 
 const Navbar = () => {
-  const user = JSON.parse(localStorage.getItem("username"));
+  const { dispatch } = useAuthContext();
+  const navigate = useNavigate();
+  const [showModel, setShowModel] = useState(false);
+
+  const handleShow = () => {
+    setShowModel(!showModel);
+  };
+
+  const signout = () => {
+    setShowModel(!showModel);
+    localStorage.removeItem("username");
+    dispatch({ type: "LOGOUT" });
+    navigate("/login");
+  };
 
   return (
-    <nav className="w-full mx-auto  border-b-2 border-slate-300 bg-white sticky absolute top-0 left-0">
-      <div className="w-full flex justify-between items-center px-16 py-3">
+    <nav className="w-full mx-auto  border-b-2 border-slate-300 bg-white sticky  top-0 left-0">
+      <div className="w-full flex justify-between items-center px-16 py-3 relative">
+        {showModel && (
+          <div
+            className="absolute right-16  top-16 py-4 px-10 bg-white cursor-pointer shadow-md"
+            onClick={signout}
+          >
+            <ul>
+              <li className="flex gap-3 items-center">
+                {" "}
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 text-slate-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                    />
+                  </svg>
+                </span>
+                <span className="text-sm text-slate-500">Logout</span>
+              </li>
+            </ul>
+          </div>
+        )}
+
         <div>
           <Link to="/welcome">
             <h1 className="text-blue-600 text-3xl font-bold">
@@ -47,8 +92,8 @@ const Navbar = () => {
               />
             </svg>
           </span>
-          <span className="text-gray-600 mr-2"> {user.firstname}</span>
-          <span className="cursor-pointer">
+          <span className="text-gray-600 mr-2"> Username</span>
+          <span className="cursor-pointer" onClick={handleShow}>
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"

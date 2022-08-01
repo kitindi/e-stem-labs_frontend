@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useAuthContext } from "../hooks/useAuthContext";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -10,6 +11,8 @@ const Signup = () => {
     email: "",
     password: "",
   });
+
+  const { dispatch } = useAuthContext();
 
   const [error, setError] = useState(null);
 
@@ -41,8 +44,12 @@ const Signup = () => {
 
     if (response.ok) {
       console.log(json);
-
+      //save json to the localstorage
       localStorage.setItem("username", JSON.stringify(json));
+
+      //update the authContext
+      dispatch({ type: "LOGIN", payload: json });
+
       navigate("/welcome");
       setError(null);
       setFormData({
@@ -136,7 +143,7 @@ const Signup = () => {
               />
             </div>
             <div className="w-full ">
-              <p>{error}</p>
+              <p className="text-red-500">{error}</p>
             </div>
 
             <div className="w-full mt-10 flex gap-6 items-center">
