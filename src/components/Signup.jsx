@@ -45,12 +45,12 @@ const Signup = () => {
     if (response.ok) {
       console.log(json);
       //save json to the localstorage
-      localStorage.setItem("username", JSON.stringify(json));
+      localStorage.setItem("user", JSON.stringify(json));
 
       //update the authContext
       dispatch({ type: "LOGIN", payload: json });
 
-      navigate("/welcome");
+      navigate("/login");
       setError(null);
       setFormData({
         firstname: "",

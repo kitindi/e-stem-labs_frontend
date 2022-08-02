@@ -5,6 +5,7 @@ import { useAuthContext } from "../hooks/useAuthContext";
 
 const Navbar = () => {
   const { dispatch } = useAuthContext();
+  const { user } = useAuthContext();
   const navigate = useNavigate();
   const [showModel, setShowModel] = useState(false);
 
@@ -14,7 +15,7 @@ const Navbar = () => {
 
   const signout = () => {
     setShowModel(!showModel);
-    localStorage.removeItem("username");
+    localStorage.removeItem("user");
     dispatch({ type: "LOGOUT" });
     navigate("/login");
   };
@@ -92,7 +93,9 @@ const Navbar = () => {
               />
             </svg>
           </span>
-          <span className="text-gray-600 mr-2"> Username</span>
+          {user && (
+            <span className="text-gray-600 mr-2"> {user.firstname}</span>
+          )}
           <span className="cursor-pointer" onClick={handleShow}>
             {" "}
             <svg

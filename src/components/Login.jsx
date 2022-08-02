@@ -30,7 +30,7 @@ const Login = () => {
 
     if (response.ok) {
       //save json to the localstorage
-      localStorage.setItem("username", JSON.stringify(json));
+      localStorage.setItem("user", JSON.stringify(json));
 
       //update the authContext
       dispatch({ type: "LOGIN", payload: json });
