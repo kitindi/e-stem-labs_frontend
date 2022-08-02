@@ -19,31 +19,31 @@ Cuurently the project is made to support laptop / desktop users, but there effor
 ### Features
 
 - User can register with a signup page
-- user can login
-- user can not acces any page such as welcome page or subject content without being authenticated
+- User can login
+- User can not acces any page such as welcome page or subject content without being authenticated
 - User can select subbject he want to learn
 - User can access currated learning notes and exercises to assess his understanding
 - User can join online channel such as YouTube, Discord and Twitter acconts for more content and online events
-- user can get notifications of upcoming events in their accounts
-- user can logout/signout
+- User can get notifications of upcoming events in their accounts
+- User can logout/signout
 
 below are few screenshots of the project sections.
 
 **Signup page**
 
-<img src="/src/img/signup_page.png">
+<img src="/src/img/signup_page.png" width="500" height="400">
 
 **Login page**
 
-<img src="/src/img/loginpage.png">
+<img src="/src/img/loginpage.png" width="500" height="400">
 
 **Welcome page**
 
-<img src="/src/img/welcome.png">
+<img src="/src/img/welcomepage.png" width="500" height="400">
 
 **Footer section**
 
-<img src="/src/img/footersection.png">
+<img src="/src/img/footersection.png" width="500" height="400">
 
 ### Technologies
 
