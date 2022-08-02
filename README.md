@@ -31,19 +31,19 @@ below are few screenshots of the project sections.
 
 **Signup page**
 
-<img src="/src/img/signup_page.png" width="500" height="400">
+<img src="/src/img/signup_page.png" width="700" height="400">
 
 **Login page**
 
-<img src="/src/img/loginpage.png" width="500" height="400">
+<img src="/src/img/loginpage.png" width="700" height="400">
 
 **Welcome page**
 
-<img src="/src/img/welcomepage.png" width="500" height="400">
+<img src="/src/img/welcomepage.png" width="700" height="400">
 
 **Footer section**
 
-<img src="/src/img/footersection.png" width="500" height="400">
+<img src="/src/img/footersection.png" width="700" height="400">
 
 ### Technologies
 
