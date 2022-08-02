@@ -17,7 +17,8 @@ In ensuring that learners benefits from being member, ther will be a weekely and
 Cuurently the project is made to support laptop / desktop users, but there efforts taking place to louch a mobile application for Android and Apple users.
 below are few screenshots of the project sections.
 
-![Signup Page](src/img/profile.jpeg)
+**Signup page**
+<img src="/src/img/signup_page.png">
 
 ### Technologies
 
