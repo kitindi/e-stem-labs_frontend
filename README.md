@@ -5,10 +5,10 @@ A digital learning platform that provides access to learning materials for stude
 ### Table of content
 
 - [Description](#description)
-- [Technologies](technologies)
+- [Technologies](#technologies)
 - [Getting Started](#getting_started)
 - [License](#License)
-- [How to contribute](#how+to_contribute)
+- [How to contribute](#how_to_contribute)
 
 ### Description
 
@@ -31,19 +31,19 @@ below are few screenshots of the project sections.
 
 **Signup page**
 
-<img src="/src/img/signup_page.png" width="700" height="400">
+<img src="/src/img/signup_page.png" >
 
 **Login page**
 
-<img src="/src/img/loginpage.png" width="700" height="400">
+<img src="/src/img/loginpage.png" >
 
 **Welcome page**
 
-<img src="/src/img/welcomepage.png" width="700" height="400">
+<img src="/src/img/welcomepage.png">
 
 **Footer section**
 
-<img src="/src/img/footersection.png" width="700" height="400">
+<img src="/src/img/footersection.png" >
 
 ### Technologies
 
