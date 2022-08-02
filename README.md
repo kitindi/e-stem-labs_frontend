@@ -1,6 +1,6 @@
 # Project Title
 
-## table of content
+### Table of content
 
 - [Description](#description)
 - [Technologies](tecbmologies)
@@ -8,12 +8,12 @@
 - [License](#License)
 - [How to contribute](#how+to_contribute)
 
-## Description
+### Description
 
-## Technologies
+### Technologies
 
-## Getting Statrted
+### Getting Statrted
 
-## License
+### License
 
-## How to contribute
+### How to contribute
