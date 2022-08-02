@@ -17,7 +17,7 @@ In ensuring that learners benefits from being member, ther will be a weekely and
 Cuurently the project is made to support laptop / desktop users, but there efforts taking place to louch a mobile application for Android and Apple users.
 below are few screenshots of the project sections.
 
-![Signup Page](https://drive.google.com/drive/folders/1ikOLiyXOnP__f6yeMTec_XwRWeIPzww8)
+![Signup Page](src/img/profile.jpeg)
 
 ### Technologies
 
