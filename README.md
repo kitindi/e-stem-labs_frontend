@@ -12,7 +12,7 @@
 
 ### Technologies
 
-### Getting Statrted
+### Getting Started
 
 ### License
 
