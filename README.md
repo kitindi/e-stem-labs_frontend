@@ -15,10 +15,35 @@ A digital learning platform that provides access to learning materials for stude
 Project intends to extend access to quality resources that will enable students learn and improve their skills and knowledge in STEM subjets.
 In ensuring that learners benefits from being member, ther will be a weekely and monthly meetup on discord server for live AMA (Ask Me Anything), as well as hackathons to give students more challenges in making use of the skills learned to solve real life problems.
 Cuurently the project is made to support laptop / desktop users, but there efforts taking place to louch a mobile application for Android and Apple users.
+
+### Features
+
+- User can register with a signup page
+- user can login
+- user can not acces any page such as welcome page or subject content without being authenticated
+- User can select subbject he want to learn
+- User can access currated learning notes and exercises to assess his understanding
+- User can join online channel such as YouTube, Discord and Twitter acconts for more content and online events
+- user can get notifications of upcoming events in their accounts
+- user can logout/signout
+
 below are few screenshots of the project sections.
 
 **Signup page**
+
 <img src="/src/img/signup_page.png">
+
+**Login page**
+
+<img src="/src/img/loginpage.png">
+
+**Welcome page**
+
+<img src="/src/img/welcome.png">
+
+**Footer section**
+
+<img src="/src/img/footersection.png">
 
 ### Technologies
 
